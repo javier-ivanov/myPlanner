@@ -13,6 +13,9 @@ signals:
     
 public slots:
     
+
+private:
+    int pRealizado;
 };
 
 #endif // TASK_H
