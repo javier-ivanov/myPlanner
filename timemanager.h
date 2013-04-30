@@ -3,11 +3,11 @@
 
 #include <QObject>
 
-class timeManager : public QObject
+class TimeManager : public QObject
 {
     Q_OBJECT
 public:
-    explicit timeManager(QObject *parent = 0);
+    explicit TimeManager(QObject *parent = 0);
     
 signals:
     
